@@ -1,147 +1,663 @@
 {
   "Files": [
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/css/site.css",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/css/lib/bootstrap.min.css",
+      "PackagePath": "staticwebassets/Chat/dist/css/lib/bootstrap.min.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/css/swipe.min.css",
+      "PackagePath": "staticwebassets/Chat/dist/css/swipe.min.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-Black.eot",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-Black.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-Black.svg",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-Black.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-Black.ttf",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-Black.ttf"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-Black.woff",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-Black.woff"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-BlackItalic.eot",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-BlackItalic.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-BlackItalic.svg",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-BlackItalic.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-BlackItalic.ttf",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-BlackItalic.ttf"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-BlackItalic.woff",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-BlackItalic.woff"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-BlackItalicd41d.eot",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-BlackItalicd41d.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-Blackd41d.eot",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-Blackd41d.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-Bold.eot",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-Bold.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-Bold.svg",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-Bold.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-Bold.ttf",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-Bold.ttf"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-Bold.woff",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-Bold.woff"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-BoldItalic.eot",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-BoldItalic.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-BoldItalic.svg",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-BoldItalic.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-BoldItalic.ttf",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-BoldItalic.ttf"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-BoldItalic.woff",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-BoldItalic.woff"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-BoldItalicd41d.eot",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-BoldItalicd41d.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-Boldd41d.eot",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-Boldd41d.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-Book.eot",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-Book.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-Book.svg",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-Book.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-Book.ttf",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-Book.ttf"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-Book.woff",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-Book.woff"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-BookItalic.eot",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-BookItalic.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-BookItalic.svg",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-BookItalic.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-BookItalic.ttf",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-BookItalic.ttf"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-BookItalic.woff",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-BookItalic.woff"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-BookItalicd41d.eot",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-BookItalicd41d.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-Bookd41d.eot",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-Bookd41d.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-Medium.eot",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-Medium.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-Medium.svg",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-Medium.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-Medium.ttf",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-Medium.ttf"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-Medium.woff",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-Medium.woff"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-MediumItalic.eot",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-MediumItalic.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-MediumItalic.svg",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-MediumItalic.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-MediumItalic.ttf",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-MediumItalic.ttf"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-MediumItalic.woff",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-MediumItalic.woff"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-MediumItalicd41d.eot",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-MediumItalicd41d.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/circular/CircularStd-Mediumd41d.eot",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/circular/CircularStd-Mediumd41d.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/material/MaterialIcons-Regular.eot",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/material/MaterialIcons-Regular.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/material/MaterialIcons-Regular.ttf",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/material/MaterialIcons-Regular.ttf"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/material/MaterialIcons-Regular.woff",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/material/MaterialIcons-Regular.woff"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/fonts/material/MaterialIcons-Regular.woff2",
+      "PackagePath": "staticwebassets/Chat/dist/fonts/material/MaterialIcons-Regular.woff2"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/img/avatars/avatar-female-1.jpg",
+      "PackagePath": "staticwebassets/Chat/dist/img/avatars/avatar-female-1.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/img/avatars/avatar-female-2.jpg",
+      "PackagePath": "staticwebassets/Chat/dist/img/avatars/avatar-female-2.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/img/avatars/avatar-female-3.jpg",
+      "PackagePath": "staticwebassets/Chat/dist/img/avatars/avatar-female-3.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/img/avatars/avatar-female-5.jpg",
+      "PackagePath": "staticwebassets/Chat/dist/img/avatars/avatar-female-5.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/img/avatars/avatar-female-6.jpg",
+      "PackagePath": "staticwebassets/Chat/dist/img/avatars/avatar-female-6.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/img/avatars/avatar-male-1.jpg",
+      "PackagePath": "staticwebassets/Chat/dist/img/avatars/avatar-male-1.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/img/avatars/avatar-male-2.jpg",
+      "PackagePath": "staticwebassets/Chat/dist/img/avatars/avatar-male-2.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/img/avatars/avatar-male-3.jpg",
+      "PackagePath": "staticwebassets/Chat/dist/img/avatars/avatar-male-3.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/img/avatars/avatar-male-4.jpg",
+      "PackagePath": "staticwebassets/Chat/dist/img/avatars/avatar-male-4.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/img/favicon.png",
+      "PackagePath": "staticwebassets/Chat/dist/img/favicon.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/img/integrations/drive.svg",
+      "PackagePath": "staticwebassets/Chat/dist/img/integrations/drive.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/img/integrations/dropbox.svg",
+      "PackagePath": "staticwebassets/Chat/dist/img/integrations/dropbox.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/img/integrations/slack.svg",
+      "PackagePath": "staticwebassets/Chat/dist/img/integrations/slack.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/img/integrations/trello.svg",
+      "PackagePath": "staticwebassets/Chat/dist/img/integrations/trello.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/Chat/dist/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/js/jquery-3.3.1.slim.min.js",
+      "PackagePath": "staticwebassets/Chat/dist/js/jquery-3.3.1.slim.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/js/swipe.min.js",
+      "PackagePath": "staticwebassets/Chat/dist/js/swipe.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/js/vendor/jquery-slim.min.js",
+      "PackagePath": "staticwebassets/Chat/dist/js/vendor/jquery-slim.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/dist/js/vendor/popper.min.js",
+      "PackagePath": "staticwebassets/Chat/dist/js/vendor/popper.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/index-2.html",
+      "PackagePath": "staticwebassets/Chat/index-2.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/index.html",
+      "PackagePath": "staticwebassets/Chat/index.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/sign-in.html",
+      "PackagePath": "staticwebassets/Chat/sign-in.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/Chat/sign-up.html",
+      "PackagePath": "staticwebassets/Chat/sign-up.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/browse-job.html",
+      "PackagePath": "staticwebassets/JobTema/browse-job.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/companies.html",
+      "PackagePath": "staticwebassets/JobTema/companies.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/company-detail.html",
+      "PackagePath": "staticwebassets/JobTema/company-detail.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/css/bootstrap.css.map",
+      "PackagePath": "staticwebassets/JobTema/css/bootstrap.css.map"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/css/common.css",
+      "PackagePath": "staticwebassets/JobTema/css/common.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/css/main.css",
+      "PackagePath": "staticwebassets/JobTema/css/main.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/css/plugins.css",
+      "PackagePath": "staticwebassets/JobTema/css/plugins.css"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/fonts/FontAwesome.otf",
+      "PackagePath": "staticwebassets/JobTema/fonts/FontAwesome.otf"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/fonts/et-line.eot",
+      "PackagePath": "staticwebassets/JobTema/fonts/et-line.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/fonts/et-line.svg",
+      "PackagePath": "staticwebassets/JobTema/fonts/et-line.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/fonts/et-line.ttf",
+      "PackagePath": "staticwebassets/JobTema/fonts/et-line.ttf"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/fonts/et-line.woff",
+      "PackagePath": "staticwebassets/JobTema/fonts/et-line.woff"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/fonts/fontawesome-webfont.eot",
+      "PackagePath": "staticwebassets/JobTema/fonts/fontawesome-webfont.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/fonts/fontawesome-webfont.svg",
+      "PackagePath": "staticwebassets/JobTema/fonts/fontawesome-webfont.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/fonts/fontawesome-webfont.ttf",
+      "PackagePath": "staticwebassets/JobTema/fonts/fontawesome-webfont.ttf"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/fonts/fontawesome-webfont.woff",
+      "PackagePath": "staticwebassets/JobTema/fonts/fontawesome-webfont.woff"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/fonts/fontawesome-webfont.woff2",
+      "PackagePath": "staticwebassets/JobTema/fonts/fontawesome-webfont.woff2"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/fonts/glyphicons-halflings-regular.eot",
+      "PackagePath": "staticwebassets/JobTema/fonts/glyphicons-halflings-regular.eot"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/fonts/glyphicons-halflings-regular.svg",
+      "PackagePath": "staticwebassets/JobTema/fonts/glyphicons-halflings-regular.svg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/fonts/glyphicons-halflings-regular.ttf",
+      "PackagePath": "staticwebassets/JobTema/fonts/glyphicons-halflings-regular.ttf"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/fonts/glyphicons-halflings-regular.woff",
+      "PackagePath": "staticwebassets/JobTema/fonts/glyphicons-halflings-regular.woff"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/img/apple.png",
+      "PackagePath": "staticwebassets/JobTema/img/apple.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/img/avatar1.jpg",
+      "PackagePath": "staticwebassets/JobTema/img/avatar1.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/img/avatar2.jpg",
+      "PackagePath": "staticwebassets/JobTema/img/avatar2.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/img/avatar3.jpg",
+      "PackagePath": "staticwebassets/JobTema/img/avatar3.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/img/bg-1.jpg",
+      "PackagePath": "staticwebassets/JobTema/img/bg-1.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/img/bg-2.jpg",
+      "PackagePath": "staticwebassets/JobTema/img/bg-2.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/img/bg-3.jpg",
+      "PackagePath": "staticwebassets/JobTema/img/bg-3.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/img/client-1.jpg",
+      "PackagePath": "staticwebassets/JobTema/img/client-1.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/img/client-2.jpg",
+      "PackagePath": "staticwebassets/JobTema/img/client-2.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/img/client-3.jpg",
+      "PackagePath": "staticwebassets/JobTema/img/client-3.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/img/client-4.jpg",
+      "PackagePath": "staticwebassets/JobTema/img/client-4.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/img/download.jpg",
+      "PackagePath": "staticwebassets/JobTema/img/download.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/img/google.png",
+      "PackagePath": "staticwebassets/JobTema/img/google.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/img/logo.png",
+      "PackagePath": "staticwebassets/JobTema/img/logo.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/img/microsoft.png",
+      "PackagePath": "staticwebassets/JobTema/img/microsoft.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/img/slider-01.jpg",
+      "PackagePath": "staticwebassets/JobTema/img/slider-01.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/img/twitter.png",
+      "PackagePath": "staticwebassets/JobTema/img/twitter.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/img/user.jpg",
+      "PackagePath": "staticwebassets/JobTema/img/user.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/img/wipro.png",
+      "PackagePath": "staticwebassets/JobTema/img/wipro.png"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/index.html",
+      "PackagePath": "staticwebassets/JobTema/index.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/js/bootsnav.js",
+      "PackagePath": "staticwebassets/JobTema/js/bootsnav.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/js/bootstrap.min.js",
+      "PackagePath": "staticwebassets/JobTema/js/bootstrap.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/js/jquery.min.js",
+      "PackagePath": "staticwebassets/JobTema/js/jquery.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/js/main.js",
+      "PackagePath": "staticwebassets/JobTema/js/main.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/js/owl.carousel.min.js",
+      "PackagePath": "staticwebassets/JobTema/js/owl.carousel.min.js"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/login.html",
+      "PackagePath": "staticwebassets/JobTema/login.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/resume.html",
+      "PackagePath": "staticwebassets/JobTema/resume.html"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/JobTema/slider-01.jpg",
+      "PackagePath": "staticwebassets/JobTema/slider-01.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/PdfReports/user.pdf",
+      "PackagePath": "staticwebassets/PdfReports/user.pdf"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/UserImage/11f10df1-1836-4db3-9e65-108f96d9da2c.jpg",
+      "PackagePath": "staticwebassets/UserImage/11f10df1-1836-4db3-9e65-108f96d9da2c.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/UserImage/15001330-838e-4cdd-9f21-c65584616637.jpg",
+      "PackagePath": "staticwebassets/UserImage/15001330-838e-4cdd-9f21-c65584616637.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/UserImage/35d680f5-ae66-49d5-819e-085ccff276aa.jpeg",
+      "PackagePath": "staticwebassets/UserImage/35d680f5-ae66-49d5-819e-085ccff276aa.jpeg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/UserImage/4980a102-bc3c-4d1e-9057-97f037ddb211.webp",
+      "PackagePath": "staticwebassets/UserImage/4980a102-bc3c-4d1e-9057-97f037ddb211.webp"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/UserImage/6f18961c-4438-461a-b6a6-1d1bb49c188c.jpg",
+      "PackagePath": "staticwebassets/UserImage/6f18961c-4438-461a-b6a6-1d1bb49c188c.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/UserImage/8ce071f3-a865-4026-bd4d-89e8d260b070.jpeg",
+      "PackagePath": "staticwebassets/UserImage/8ce071f3-a865-4026-bd4d-89e8d260b070.jpeg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/UserImage/a2431edd-30a0-4553-a05c-47da71017752.jpg",
+      "PackagePath": "staticwebassets/UserImage/a2431edd-30a0-4553-a05c-47da71017752.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/UserImage/b771e991-6178-47c8-804c-07028f0b4fe8.jpg",
+      "PackagePath": "staticwebassets/UserImage/b771e991-6178-47c8-804c-07028f0b4fe8.jpg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/UserImage/bb6a0da4-6940-4d74-9184-9ba121b1e22f.jpeg",
+      "PackagePath": "staticwebassets/UserImage/bb6a0da4-6940-4d74-9184-9ba121b1e22f.jpeg"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/UserImage/ee57963d-501d-4a83-b8d0-1486edc3e93d.webp",
+      "PackagePath": "staticwebassets/UserImage/ee57963d-501d-4a83-b8d0-1486edc3e93d.webp"
+    },
+    {
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/css/site.css",
       "PackagePath": "staticwebassets/css/site.css"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/favicon.ico",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/favicon.ico",
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/js/site.js",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/js/site.js",
       "PackagePath": "staticwebassets/js/site.js"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/bootstrap/LICENSE",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/bootstrap/LICENSE",
       "PackagePath": "staticwebassets/lib/bootstrap"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.css.map"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-grid.min.css.map"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.css.map"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.css.map"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/bootstrap/dist/css/bootstrap.min.css.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/css/bootstrap.min.css.map"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.js.map"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.js.map"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/bootstrap/dist/js/bootstrap.min.js.map",
       "PackagePath": "staticwebassets/lib/bootstrap/dist/js/bootstrap.min.js.map"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/jquery-validation-unobtrusive/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/LICENSE.txt"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/jquery-validation/LICENSE.md",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/jquery-validation/LICENSE.md",
       "PackagePath": "staticwebassets/lib/jquery-validation/LICENSE.md"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/jquery-validation/dist/additional-methods.js",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/jquery-validation/dist/additional-methods.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.js"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/jquery-validation/dist/additional-methods.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/additional-methods.min.js"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/jquery-validation/dist/jquery.validate.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.js"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/jquery-validation/dist/jquery.validate.min.js",
       "PackagePath": "staticwebassets/lib/jquery-validation/dist/jquery.validate.min.js"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/jquery/LICENSE.txt",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/jquery/LICENSE.txt",
       "PackagePath": "staticwebassets/lib/jquery/LICENSE.txt"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/jquery/dist/jquery.js",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/jquery/dist/jquery.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.js"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/jquery/dist/jquery.min.js",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/jquery/dist/jquery.min.js",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.js"
     },
     {
-      "Id": "/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity/wwwroot/lib/jquery/dist/jquery.min.map",
+      "Id": "/Users/gozdemogus/Desktop/JOB/BaseIdentity-Upschool/BaseIdentity/wwwroot/lib/jquery/dist/jquery.min.map",
       "PackagePath": "staticwebassets/lib/jquery/dist/jquery.min.map"
     },
     {
