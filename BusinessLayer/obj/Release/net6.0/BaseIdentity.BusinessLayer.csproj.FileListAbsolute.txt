@@ -1,0 +1,17 @@
+/Users/gozdemogus/Desktop/BaseIdentity/BusinessLayer/bin/Release/net6.0/BusinessLayer.deps.json
+/Users/gozdemogus/Desktop/BaseIdentity/BusinessLayer/bin/Release/net6.0/BusinessLayer.dll
+/Users/gozdemogus/Desktop/BaseIdentity/BusinessLayer/bin/Release/net6.0/BusinessLayer.pdb
+/Users/gozdemogus/Desktop/BaseIdentity/BusinessLayer/bin/Release/net6.0/BaseIdentity.DataAccessLayer.dll
+/Users/gozdemogus/Desktop/BaseIdentity/BusinessLayer/bin/Release/net6.0/EntityLayer.dll
+/Users/gozdemogus/Desktop/BaseIdentity/BusinessLayer/bin/Release/net6.0/BaseIdentity.DataAccessLayer.pdb
+/Users/gozdemogus/Desktop/BaseIdentity/BusinessLayer/bin/Release/net6.0/EntityLayer.pdb
+/Users/gozdemogus/Desktop/BaseIdentity/BusinessLayer/obj/Release/net6.0/BaseIdentity.BusinessLayer.csproj.AssemblyReference.cache
+/Users/gozdemogus/Desktop/BaseIdentity/BusinessLayer/obj/Release/net6.0/BaseIdentity.BusinessLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gozdemogus/Desktop/BaseIdentity/BusinessLayer/obj/Release/net6.0/BaseIdentity.BusinessLayer.AssemblyInfoInputs.cache
+/Users/gozdemogus/Desktop/BaseIdentity/BusinessLayer/obj/Release/net6.0/BaseIdentity.BusinessLayer.AssemblyInfo.cs
+/Users/gozdemogus/Desktop/BaseIdentity/BusinessLayer/obj/Release/net6.0/BaseIdentity.BusinessLayer.csproj.CoreCompileInputs.cache
+/Users/gozdemogus/Desktop/BaseIdentity/BusinessLayer/obj/Release/net6.0/BaseIdentity.BusinessLayer.csproj.CopyComplete
+/Users/gozdemogus/Desktop/BaseIdentity/BusinessLayer/obj/Release/net6.0/BusinessLayer.dll
+/Users/gozdemogus/Desktop/BaseIdentity/BusinessLayer/obj/Release/net6.0/refint/BusinessLayer.dll
+/Users/gozdemogus/Desktop/BaseIdentity/BusinessLayer/obj/Release/net6.0/BusinessLayer.pdb
+/Users/gozdemogus/Desktop/BaseIdentity/BusinessLayer/obj/Release/net6.0/ref/BusinessLayer.dll

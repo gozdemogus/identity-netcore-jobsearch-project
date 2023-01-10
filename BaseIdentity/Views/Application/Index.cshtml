@@ -1,0 +1,85 @@
+﻿@model List<Ad>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<section class="jobs">
+    <div class="container">
+        <div class="row heading">
+            <h2>Applications</h2>
+            <p>Here you can see the list of jobs you applied.</p>
+        </div>
+        <div class="companies">
+
+            @foreach (var item in Model)
+            {
+                <div class="company-list">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2">
+                            <div class="company-logo">
+                                <img src="@item.Company.Logo" class="img-responsive" alt="" />
+                            </div>
+                        </div>
+                        <a href="/Job/Detail/@item.AdID">
+                            <div class="col-md-10 col-sm-10">
+                                <div class="company-content">
+                                    <h3>
+                                        @item.AdName @if (item.Category.CategoryName == "Fulltime")
+                                        {
+                                            <span class="full-time">Full Time</span>
+                                        }
+                                        @if (item.Category.CategoryName == "Internship")
+                                        {
+                                            <span class="internship">Intership</span>
+                                        }
+                                        @if (item.Category.CategoryName == "Parttime")
+                                        {
+                                            <span class="part-time">Part ime</span>
+                                        }
+                                        @if (item.Category.CategoryName == "Freelance")
+                                        {
+                                            <span class="freelance">Freelance</span>
+                                        }
+                                    </h3>
+                                    <p>
+                                        <span class="company-name"><i class="fa fa-briefcase"></i>@item.Company.CompanyName</span>
+                                        @if (item.AdLocation != null)
+                                        {
+                                            <span class="company-location"><i class="fa fa-map-marker"></i> @item.AdLocation</span>
+
+                                        }
+                                        else
+                                        {
+                                            <span class="company-location"><i class="fa fa-map-marker"></i> @item.Company.CompanyAddress</span>
+
+                                        }
+                                        @if (item.Experience != null)
+                                        {
+                                            <span class="package"><i class="fa fa-user"></i>@item.Experience.Name</span>
+
+                                        }
+                                        else
+                                        {
+                                            <span class="package"><i class="fa fa-user"></i></span>
+                                        }
+                                        
+                                        <span class="package"><i class="fa fa-money"></i>$@item.Salary</span>
+                                    </p>
+                                    <a href="/Application/Rollback/@item.AdID" class="btn brows-btn" style="position: center; bottom: 0; right: 0;">Rollback</a>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            }
+
+        </div>
+        @*<div class="row">
+            <input type="button" class="btn brows-btn" value="Browse All Jobs" />
+        </div>*@
+    </div>
+</section>

@@ -1,0 +1,49 @@
+﻿@model List<Company>
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+
+
+<section class="jobs">
+    <div class="container">
+        <div class="row heading">
+            <h2>Companies</h2>
+            <p>Here you can see the list of companies.</p>
+        </div>
+        <div class="companies">
+
+            @foreach (var item in Model)
+            {
+                <div class="company-list">
+                    <div class="row">
+                        <div class="col-md-2 col-sm-2">
+                            <div class="company-logo">
+                                <img src="@item.Logo" class="img-responsive" alt="" />
+                            </div>
+                        </div>
+                        <a href="/Company/Detail/@item.CompanyID">
+                            <div class="col-md-10 col-sm-10">
+                                <div class="company-content">
+                                    <h2>@item.CompanyName
+                                    </h2>
+                                    <p>
+                                        <span class="company-name"><i class="fa fa-briefcase"></i>@item.CompanyName</span>
+                                        <span class="company-location"><i class="fa fa-map-marker"></i> @item.CompanyAddress</span>
+                                        <span class="package"><i class="fa fa-home"></i>@item.Sector</span>
+                                    </p>
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            }
+
+        </div>
+        @*<div class="row">
+                <input type="button" class="btn brows-btn" value="Browse All Jobs" />
+            </div>*@
+    </div>
+</section>

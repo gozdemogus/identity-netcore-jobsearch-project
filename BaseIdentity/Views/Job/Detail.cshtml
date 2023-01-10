@@ -1,0 +1,95 @@
+﻿@model Ad
+
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+
+<section class="profile-detail">
+    <div class="container">
+        <div class="col-md-12">
+            <div class="row">
+                <div class="basic-information">
+                    <div class="col-md-3 col-sm-3">
+                        <img src="@Model.Company.Logo" alt="" class="img-responsive">
+                    </div>
+                    <div class="col-md-9 col-sm-9">
+                        <div class="profile-content">
+                            <h2>@Model.AdName <h3><p>@Model.Company.Sector</p></h3><span>@Model.Company.CompanyName</span></h2>
+                            @{
+                                var url = Model.Company.Website;
+                            }
+                            <ul class="information">
+                                <li><span>Established:</span>@Model.Company.From</li>
+                                <li><span>Sector:</span>@Model.Company.Sector</li>
+                                <li><span>Website:</span><a href="https://@url" style="color: blue; font-weight: bold;">@url</a></li>
+                                <li><span>Employee Quantity:</span>@Model.Company.EmployeeQuantity</li>
+                            </ul>
+                            <br />
+                            <a href="/Application/Apply/@Model.AdID" type="submit" class="btn btn-primary">Apply</a>
+
+                        </div>
+                    </div>
+                    <ul class="social">
+                        @if (Model.Company.Facebook != null)
+                        {
+                            <li><a href="@Model.Company.Facebook" class="facebook"><i class="fa fa-facebook"></i>Facebook</a></li>
+                        }
+                        @if (Model.Company.Google != null)
+                        {
+                            <li><a href="@Model.Company.Google" class="google"><i class="fa fa-google-plus"></i>Google Plus</a></li>
+                        }
+                        @if (Model.Company.Twitter != null)
+                        {
+                            <li><a href="@Model.Company.Twitter" class="twitter"><i class="fa fa-twitter"></i>Twitter</a></li>
+                        }
+                        @if (Model.Company.Linkedin != null)
+                        {
+                            <li><a href="@Model.Company.Linkedin" class="linkedin"><i class="fa fa-linkedin"></i>Linkedin</a></li>
+                        }
+                        @if (Model.Company.Instagram != null)
+                        {
+                            <li><a href="@Model.Company.Instagram" class="instagram"><i class="fa fa-instagram"></i>Instagram</a></li>
+                        }
+                    </ul>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-user fa-fw"></i> Responsibilities
+                        </div>
+
+                        <div class="panel-body">
+                            <p>@Model.Description</p>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-leaf fa-fw"></i> Minimum Technical Skills and Qualifications
+                        </div>
+                        <div class="panel-body">
+                            <p></p>
+                            <ul>
+                                <li>@Model.Qualifications</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <i class="fa fa-cog fa-fw"></i> Additional Rights
+                        </div>
+
+                        <div class="panel-body">
+                            <p></p>
+                            <span class="service-tag">@Model.AdditionalRights</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

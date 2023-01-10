@@ -1,0 +1,273 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+
+@await Component.InvokeAsync("Banner")
+
+@await Component.InvokeAsync("JobList")
+
+
+<section class="features">
+
+    <div class="container">
+        @if (ViewBag.IsLogged != true)
+        {
+            <div class="col-md-4 col-sm-4">
+                <a href="/Register/SignUp/">
+                    <div class="features-content">
+                        <span class="box1"><span aria-hidden="true" class="icon-dial"></span></span>
+                        <h3>Create An Account</h3>
+                        <p>Free, fast, safe</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+                <a href="http://www.example.com">
+                    <div class="features-content">
+                        <span class="box1"><span aria-hidden="true" class="icon-search"></span></span>
+                        <h3>Search Desired Job</h3>
+                        <p>More than thousands of companies are here.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-4 col-sm-4">
+                <a href="/User/Index/">
+                    <div class="features-content">
+                        <span class="box1"><span aria-hidden="true" class="icon-printer"></span></span>
+                        <h3>Send Your Resume</h3>
+                        <p>Your mirror! Easily create your resume.</p>
+                    </div>
+                </a>
+            </div>
+
+        }
+        else
+        {
+            <div class="col-md-6 col-sm-6">
+                <a href="http://www.example.com">
+                    <div class="features-content">
+                        <span class="box1"><span aria-hidden="true" class="icon-search"></span></span>
+                        <h3>Search Desired Job</h3>
+                        <p>More than thousands of companies are here.</p>
+                    </div>
+                </a>
+            </div>
+
+            <div class="col-md-6 col-sm-6">
+                <a href="/User/Index/">
+                    <div class="features-content">
+                        <span class="box1"><span aria-hidden="true" class="icon-printer"></span></span>
+                        <h3>Send Your Resume</h3>
+                        <p>Your mirror! Easily create your resume.</p>
+                    </div>
+                </a>
+            </div>
+
+        }
+
+
+
+    </div>
+</section>
+
+
+@await Component.InvokeAsync("Statistics")
+
+
+<section class="testimonials dark">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div id="testimonial-slider" class="owl-carousel">
+
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="~/JobTema/img/client-4.jpg" alt="">
+                        </div>
+                        <p class="description">
+                            "As a tech hunter, JobHelper is a lifesaver for me!"
+                        </p>
+                        <h3 class="testimonial-title">hilary</h3>
+                        <span class="post">Talent Acquisition Specialist</span>
+                    </div>
+
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="~/JobTema/img/client-2.jpg" alt="">
+                        </div>
+                        <p class="description">
+                            " Very helpful, got my first job as a software developer. "
+                        </p>
+                        <h3 class="testimonial-title">kristiana</h3>
+                        <span class="post">Software Engineer</span>
+                    </div>
+
+                    <div class="testimonial">
+                        <div class="pic">
+                            <img src="~/JobTema/img/client-2.jpg" alt="">
+                        </div>
+                        <p class="description">
+                            " Very helpful, got my first job as a software developer. "
+                        </p>
+                        <h3 class="testimonial-title">kristiana</h3>
+                        <span class="post">Software Engineer</span>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+@*<section class="pricind">
+        <div class="container">
+            <div class="col-md-4 col-sm-4">
+                <div class="package-box">
+                    <div class="package-header">
+                        <i class="fa fa-cog" aria-hidden="true"></i>
+                        <h3>Professional</h3>
+                    </div>
+                    <div class="package-info">
+                        <ul>
+                            <li>3 Designs</li>
+                            <li>3 PSD Designs</li>
+                            <li>4 color Option</li>
+                            <li>10GB Disk Space</li>
+                            <li>Full Support</li>
+                        </ul>
+                    </div>
+                    <div class="package-price">
+                        <h2><sup>$ </sup>10<sub>/Month</sub></h2>
+                    </div>
+                    <button type="submit" class="btn btn-package">Sign Up</button>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="package-box">
+                    <div class="package-header">
+                        <i class="fa fa-star-half-o" aria-hidden="true"></i>
+                        <h3>Standard</h3>
+                    </div>
+                    <div class="package-info">
+                        <ul>
+                            <li>3 Designs</li>
+                            <li>3 PSD Designs</li>
+                            <li>4 color Option</li>
+                            <li>10GB Disk Space</li>
+                            <li>Full Support</li>
+                        </ul>
+                    </div>
+                    <div class="package-price">
+                        <h2><sup>$ </sup>110<sub>/Month</sub></h2>
+                    </div>
+                    <button type="submit" class="btn btn-package">Sign Up</button>
+                </div>
+            </div>
+            <div class="col-md-4 col-sm-4">
+                <div class="package-box">
+                    <div class="package-header">
+                        <i class="fa fa-cube" aria-hidden="true"></i>
+                        <h3>Premium</h3>
+                    </div>
+                    <div class="package-info">
+                        <ul>
+                            <li>3 Designs</li>
+                            <li>3 PSD Designs</li>
+                            <li>4 color Option</li>
+                            <li>10GB Disk Space</li>
+                            <li>Full Support</li>
+                        </ul>
+                    </div>
+                    <div class="package-price">
+                        <h2><sup>$ </sup>170<sub>/Month</sub></h2>
+                    </div>
+                    <button type="submit" class="btn btn-package">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </section>*@
+
+
+
+@*kisi kartları, arkadas listesinde ve gene kullanıcı listelerken kullandım*@
+@*<section class="membercard dark">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-4">
+                    <div class="left-widget-sidebar">
+                        <div class="card-widget bg-white user-card">
+                            <div class="u-img img-cover" style="background-image: url(img/bg-1.jpg);background-size:cover;"></div>
+                            <div class="u-content">
+                                <div class="avatar box-80">
+                                    <img class="img-responsive img-circle img-70 shadow-white" src="~/JobTema/img/avatar3.jpg" alt="">
+                                    <i class="fa fa-circle-o fa-green"></i>
+                                </div>
+                                <h5>Sazzel Shi</h5>
+                                <p class="text-muted">UX/ Designer</p>
+                            </div>
+                            <div class="user-social-profile">
+                                <ul>
+                                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="left-widget-sidebar">
+                        <div class="card-widget bg-white user-card">
+                            <div class="u-img img-cover" style="background-image: url(img/bg-2.jpg);background-size:cover;"></div>
+                            <div class="u-content">
+                                <div class="avatar box-80">
+                                    <img class="img-responsive img-circle img-70 shadow-white" src="~/JobTema/img/avatar2.jpg" alt="">
+                                    <i class="fa fa-circle-o fa-green"></i>
+                                </div>
+                                <h5>Daniel Dezox</h5>
+                                <p class="text-muted">CEO Founder</p>
+                            </div>
+                            <div class="user-social-profile">
+                                <ul>
+                                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-4">
+                    <div class="left-widget-sidebar">
+                        <div class="card-widget bg-white user-card">
+                            <div class="u-img img-cover" style="background-image: url(img/bg-3.jpg);background-size:cover;"></div>
+                            <div class="u-content">
+                                <div class="avatar box-80">
+                                    <img class="img-responsive img-circle img-70 shadow-white" src="~/JobTema/img/avatar1.jpg" alt="">
+                                    <i class="fa fa-circle-o fa-green"></i>
+                                </div>
+                                <h5>Silp Sizzer</h5>
+                                <p class="text-muted">Human Resource</p>
+                            </div>
+                            <div class="user-social-profile">
+                                <ul>
+                                    <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                    <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                                    <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                    <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                                    <li><a href=""><i class="fa fa-linkedin"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>*@

@@ -1,0 +1,41 @@
+﻿@model List<Friendship>
+
+
+
+    <section class="membercard dark">
+        <div class="container">
+            <div class="row">
+                @foreach (var item in Model)
+                {
+                    <a href="/User/Find/@item.FriendId.ToString()">
+                        <div class="col-md-4 col-sm-4">
+                            <div class="left-widget-sidebar">
+                                <div class="card-widget bg-white user-card">
+                                    <div class="u-img img-cover" style="background-image: url(img/bg-2.jpg);background-size:cover;"></div>
+                                    <div class="u-content">
+                                        <div class="avatar box-80">
+                                            <img class="img-responsive img-circle img-70 shadow-white" src="~/UserImage/@item.Friend.Image" alt="">
+                                            <i class="fa fa-circle-o fa-green"></i>
+                                        </div>
+                                        <h5>@item.Friend.Name</h5>
+                                        <p class="text-muted">@item.Friend.Title</p>
+                                    </div>
+                                    <div class="user-social-profile">
+                                        <ul>
+                                            <li><a href=""><i class="fa fa-facebook"></i></a></li>
+                                            <li><a href=""><i class="fa fa-google-plus"></i></a></li>
+                                            <li><a href=""><i class="fa fa-twitter"></i></a></li>
+                                            <li><a href=""><i class="fa fa-instagram"></i></a></li>
+                                            <li><a href="@item.Friend.Linkedin"><i class="fa fa-linkedin"></i></a></li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </a>
+
+                }
+
+            </div>
+        </div>
+    </section>

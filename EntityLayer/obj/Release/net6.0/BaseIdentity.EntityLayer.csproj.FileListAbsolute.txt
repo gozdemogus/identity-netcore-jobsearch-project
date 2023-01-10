@@ -1,0 +1,14 @@
+/Users/gozdemogus/Desktop/BaseIdentity/EntityLayer/bin/Release/net6.0/EntityLayer.deps.json
+/Users/gozdemogus/Desktop/BaseIdentity/EntityLayer/bin/Release/net6.0/EntityLayer.runtimeconfig.json
+/Users/gozdemogus/Desktop/BaseIdentity/EntityLayer/bin/Release/net6.0/EntityLayer.dll
+/Users/gozdemogus/Desktop/BaseIdentity/EntityLayer/bin/Release/net6.0/EntityLayer.pdb
+/Users/gozdemogus/Desktop/BaseIdentity/EntityLayer/obj/Release/net6.0/BaseIdentity.EntityLayer.csproj.AssemblyReference.cache
+/Users/gozdemogus/Desktop/BaseIdentity/EntityLayer/obj/Release/net6.0/BaseIdentity.EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gozdemogus/Desktop/BaseIdentity/EntityLayer/obj/Release/net6.0/BaseIdentity.EntityLayer.AssemblyInfoInputs.cache
+/Users/gozdemogus/Desktop/BaseIdentity/EntityLayer/obj/Release/net6.0/BaseIdentity.EntityLayer.AssemblyInfo.cs
+/Users/gozdemogus/Desktop/BaseIdentity/EntityLayer/obj/Release/net6.0/BaseIdentity.EntityLayer.csproj.CoreCompileInputs.cache
+/Users/gozdemogus/Desktop/BaseIdentity/EntityLayer/obj/Release/net6.0/EntityLayer.dll
+/Users/gozdemogus/Desktop/BaseIdentity/EntityLayer/obj/Release/net6.0/refint/EntityLayer.dll
+/Users/gozdemogus/Desktop/BaseIdentity/EntityLayer/obj/Release/net6.0/EntityLayer.pdb
+/Users/gozdemogus/Desktop/BaseIdentity/EntityLayer/obj/Release/net6.0/BaseIdentity.EntityLayer.genruntimeconfig.cache
+/Users/gozdemogus/Desktop/BaseIdentity/EntityLayer/obj/Release/net6.0/ref/EntityLayer.dll

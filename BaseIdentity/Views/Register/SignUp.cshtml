@@ -1,0 +1,35 @@
+﻿@model SignUpModel
+
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<section class="login-wrapper">
+    <div class="container">
+        <div class="col-md-6 col-sm-8 col-md-offset-3 col-sm-offset-2">
+            <form method="post">
+                <img class="img-responsive" alt="logo" src="~/JobTema/img/logo.png">
+                <input type="text" class="form-control input-lg" placeholder="Name" asp-for="Name">
+                <span asp-validation-for="Name" class="text-info"></span>
+
+                <input type="text" class="form-control input-lg" placeholder="Surname" asp-for="Surname">
+                <span asp-validation-for="Surname" class="text-info"></span>
+
+                <input type="text" class="form-control input-lg" placeholder="Username" asp-for="Username">
+                <span asp-validation-for="Username" class="text-info"></span>
+
+                <input type="text" class="form-control input-lg" placeholder="Password" asp-for="Password">
+                <span asp-validation-for="Password" class="text-info"></span>
+
+                <input type="text" class="form-control input-lg" placeholder="Confirm Password" asp-for="PasswordConfirm">
+                <span asp-validation-for="PasswordConfirm" class="text-info"></span>
+
+                <input type="text" class="form-control input-lg" placeholder="Mail" asp-for="Email">
+                <span asp-validation-for="Email" class="text-info"></span>
+
+                <button type="submit" class="btn btn-primary">Register</button>
+                <p>Have Account? <a href="/Login/Index/">Login</a></p>
+            </form>
+        </div>
+    </div>
+</section>

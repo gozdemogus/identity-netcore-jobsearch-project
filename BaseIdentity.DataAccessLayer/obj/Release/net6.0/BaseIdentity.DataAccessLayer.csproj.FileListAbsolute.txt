@@ -1,0 +1,17 @@
+/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity.DataAccessLayer/bin/Release/net6.0/BaseIdentity.DataAccessLayer.deps.json
+/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity.DataAccessLayer/bin/Release/net6.0/BaseIdentity.DataAccessLayer.runtimeconfig.json
+/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity.DataAccessLayer/bin/Release/net6.0/BaseIdentity.DataAccessLayer.dll
+/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity.DataAccessLayer/bin/Release/net6.0/BaseIdentity.DataAccessLayer.pdb
+/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity.DataAccessLayer/bin/Release/net6.0/EntityLayer.dll
+/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity.DataAccessLayer/bin/Release/net6.0/EntityLayer.pdb
+/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity.DataAccessLayer/obj/Release/net6.0/BaseIdentity.DataAccessLayer.csproj.AssemblyReference.cache
+/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity.DataAccessLayer/obj/Release/net6.0/BaseIdentity.DataAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity.DataAccessLayer/obj/Release/net6.0/BaseIdentity.DataAccessLayer.AssemblyInfoInputs.cache
+/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity.DataAccessLayer/obj/Release/net6.0/BaseIdentity.DataAccessLayer.AssemblyInfo.cs
+/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity.DataAccessLayer/obj/Release/net6.0/BaseIdentity.DataAccessLayer.csproj.CoreCompileInputs.cache
+/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity.DataAccessLayer/obj/Release/net6.0/BaseIdentity.DataAccessLayer.csproj.CopyComplete
+/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity.DataAccessLayer/obj/Release/net6.0/BaseIdentity.DataAccessLayer.dll
+/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity.DataAccessLayer/obj/Release/net6.0/refint/BaseIdentity.DataAccessLayer.dll
+/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity.DataAccessLayer/obj/Release/net6.0/BaseIdentity.DataAccessLayer.pdb
+/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity.DataAccessLayer/obj/Release/net6.0/BaseIdentity.DataAccessLayer.genruntimeconfig.cache
+/Users/gozdemogus/Desktop/BaseIdentity/BaseIdentity.DataAccessLayer/obj/Release/net6.0/ref/BaseIdentity.DataAccessLayer.dll

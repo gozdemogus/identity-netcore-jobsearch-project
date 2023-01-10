@@ -1,0 +1,109 @@
+﻿@model List<Message>
+
+ <!-- Start of Discussions -->
+<div id="discussions" class="tab-pane fade active show">
+    <div class="search">
+        <form class="form-inline position-relative">
+            <input type="search" class="form-control" id="conversations" placeholder="Search for conversations...">
+            <button type="button" class="btn btn-link loop"><i class="material-icons">search</i></button>
+        </form>
+        <button class="btn create" data-toggle="modal" data-target="#startnewchat"><i class="material-icons">create</i></button>
+    </div>
+    <div class="list-group sort">
+        <button class="btn filterDiscussionsBtn active show" data-toggle="list" data-filter="all">All</button>
+        <button class="btn filterDiscussionsBtn" data-toggle="list" data-filter="read">Read</button>
+        <button class="btn filterDiscussionsBtn" data-toggle="list" data-filter="unread">Unread</button>
+    </div>
+    <div class="discussions">
+        <h1>Messages</h1>
+        <div class="list-group" id="chats" role="tablist">
+            @if (Model != null)
+            {
+                @foreach (var item in Model)
+                {
+                    @if (item.SenderID != ViewBag.currentUserId)
+                    {
+                        <a href="/Message/Index/@item.SenderID" class="filterDiscussions all unread single active" id="list-chat-list">
+                            @if (item.SenderUser != null)
+                            {
+                                <img class="avatar-md" src="~/UserImage/@item.SenderUser.Image" data-toggle="tooltip" data-placement="top" title="@item.SenderUser.Name" alt="avatar">
+
+                            }
+                            @if (item.SenderUser.IsActive == true)
+                            {
+                                <div class="status">
+                                    <i class="material-icons online">fiber_manual_record</i>
+                                </div>}
+                            else
+                            {
+                                <div class="status">
+                                    <i class="material-icons offline">fiber_manual_record</i>
+                                </div>
+                            }
+                            @if (@item.MessageStatus == false)
+                            {
+                                <div class="new bg-yellow">
+                                    <span>New</span>
+                                </div>
+                            }
+                            <div class="data">
+                                @if (item.SenderUser != null)
+                                {
+                                    <h5>@item.SenderUser.Name</h5>
+
+                                }
+                                <span>@item.MessageDate</span>
+                                <p>@item.MessageDetails</p>
+                            </div>
+                        </a>
+                    }
+                    else
+                    {
+        <a href="/Message/Index/@item.ReceiverID" class="filterDiscussions all unread single active" id="list-chat-list">
+            @if (item.SenderUser != null)
+            {
+                <img class="avatar-md" src="~/UserImage/@item.ReceiverUser.Image" data-toggle="tooltip" data-placement="top" title="@item.SenderUser.Name" alt="avatar">
+
+            }
+            @if (item.ReceiverUser.IsActive == true)
+            {
+                <div class="status">
+                    <i class="material-icons online">fiber_manual_record</i>
+                </div>}
+            else
+            {
+                <div class="status">
+                    <i class="material-icons offline">fiber_manual_record</i>
+                </div>
+            }
+            @if (@item.MessageStatus == false)
+            {
+                <div class="new bg-yellow">
+                    <span>New</span>
+                </div>
+            }
+        <div class="data">
+            @if (item.SenderUser != null)
+            {
+                @if (item.SenderUser.Id != ViewBag.currentuserID)
+                {
+                    <h5>@item.SenderUser.Name</h5>
+                }
+                else
+                {
+                    <h5>@item.ReceiverUser.Name</h5>
+                }
+
+            }
+            <span>@item.MessageDate</span>
+            <p>@item.MessageDetails</p>
+        </div>
+        </a>
+                    }
+
+                }
+            }
+        </div>
+    </div>
+</div>
+<!-- End of Discussions -->

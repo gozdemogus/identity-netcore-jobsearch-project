@@ -1,0 +1,62 @@
+﻿
+@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+
+<section class="profile-detail">
+    <div class="container">
+        <div class="col-md-12">
+            <div class="row">
+                <h1>Account Settings</h1>
+
+                <div class="basic-information" >
+                    <div class="col-md-3 col-sm-3">
+
+                        @if (Model.Image != null)
+                        {
+                            <img src="~/UserImage/@Model.Image" alt="" class="img-responsive" width="180px" height="225px">
+                        }
+                        else
+                        {
+                            <img src="https://cdn-icons-png.flaticon.com/512/149/149071.png" alt="" class="img-responsive">
+                        }
+
+                    </div>
+                    <div class="col-md-12 col-sm-12">
+                        <div class="profile-content">
+                            <h2>@Model.Name @Model.Surname<span>@Model.Title</span></h2>
+                            @*<p>@Model.CurrentWork</p>*@
+                        </div>
+                    </div>
+
+                    <div class="col-md-9 col-sm-9">
+                        <div class="panel panel-defaul">
+                            <a href="/User/ResetPassword/">
+                                <i class="fa fa-cog fa-fw"></i>Reset Password
+                            </a>
+                        </div>
+
+                        <div class="panel panel-defaul">
+                            <a href="/User/DeleteAccount/">
+                                <i class="fa fa-cog fa-fw"></i>Delete Account
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+<!--buraya bak-->
+<script>$('#acceptRules').click(function () {
+        swal("Hello world!");
+        console.log("noluyo")
+    });</script>

@@ -1,0 +1,124 @@
+﻿@model List<Message>
+
+@{
+    Layout = "~/Views/Shared/_ChatLayout.cshtml";
+}
+
+<div class="main">
+    <div class="tab-content" id="nav-tabContent">
+        <!-- Start of Babble -->
+        <div class="babble tab-pane fade active show" id="list-chat" role="tabpanel" aria-labelledby="list-chat-list">
+            <!-- Start of Chat -->
+
+            @if (ViewBag.Sender == null )
+            {
+               <center>
+                    <div class="container">
+                        <div class="col-md-12">
+                            <div class="preference">
+                                <h2>Hello, @User.Identity.Name</h2>
+                                <p>Start messaging with your friends, family and connections.</p>
+                                @*<a href="" class="btn button">Send Message</a>*@
+                            </div>
+                        </div>
+                    </div>
+               </center>
+            }
+            else
+            {
+                <div class="chat" id="chat1">
+                    <div class="top">
+                        <div class="container">
+                            <div class="col-md-12">
+                                <div class="inside">
+                                    <a href="/User/Find/@ViewBag.ReceiverID"><img class="avatar-md" src="~/UserImage/@ViewBag.SenderImg" data-toggle="tooltip" data-placement="top" title="@ViewBag.Sender" alt="avatar"></a>
+                                    <div class="status">
+                                        @if (ViewBag.SenderActivity == true)
+                                        {
+                                            <i class="material-icons online">fiber_manual_record</i>
+                                        }
+                                        else
+                                        {
+                                            <i class="material-icons offline">fiber_manual_record</i>
+                                        }
+                                    </div>
+                                    <div class="data">
+                                        <h5><a href="#">@ViewBag.Sender</a></h5>
+                                        @if (ViewBag.SenderActivity == true)
+                                        {
+                                            <span>Active now</span>
+                                        }
+                                        else
+                                        {
+                                            <span>Offline</span>
+                                        }
+                                    </div>
+                                    <button class="btn connect d-md-block d-none" name="1"><i class="material-icons md-30">phone_in_talk</i></button>
+                                    <button class="btn connect d-md-block d-none" name="1"><i class="material-icons md-36">videocam</i></button>
+                                    <button class="btn d-md-block d-none"><i class="material-icons md-30">info</i></button>
+                                    <div class="dropdown">
+                                        <button class="btn" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><i class="material-icons md-30">more_vert</i></button>
+                                        <div class="dropdown-menu dropdown-menu-right">
+                                            <button class="dropdown-item connect" name="1"><i class="material-icons">phone_in_talk</i>Voice Call</button>
+                                            <button class="dropdown-item connect" name="1"><i class="material-icons">videocam</i>Video Call</button>
+                                            <hr>
+                                            <button class="dropdown-item"><i class="material-icons">clear</i>Clear History</button>
+                                            <button class="dropdown-item"><i class="material-icons">block</i>Block Contact</button>
+                                            <button class="dropdown-item"><i class="material-icons">delete</i>Delete Contact</button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content" id="content">
+                        <div class="container">
+                            <div class="col-md-12">
+                                <div class="date">
+                                    <hr>
+                                    <span>Start of Conversation</span>
+                                    <hr>
+                                </div>
+                                @if (ViewBag.SendMessages != null)
+                                {
+                                    foreach (var item in ViewBag.SendMessages)
+                                    {
+                                        if (item.ReceiverUser.Id != ViewBag.SenderID)
+                                        {
+                                            <div class="message me">
+                                                <img class="avatar-md" src="~/UserImage/@item.SenderUser.Image" data-toggle="tooltip" data-placement="top" title="@item.SenderUser.Name" alt="avatar">
+                                                <div class="text-main">
+                                                    <div class="text-group me">
+                                                        <div class="text me">
+                                                            <p>@item.MessageDetails</p>
+                                                        </div>
+                                                    </div>
+                                                    <span>@item.MessageDate</span>
+                                                </div>
+                                            </div>
+                                        }
+
+                                        else
+                                        {
+                                            <div class="message">
+                                                <img class="avatar-md" src="~/UserImage/@item.SenderUser.Image" data-toggle="tooltip" data-placement="top" title="@item.SenderUser.Name" alt="avatar">
+                                                <div class="text-main">
+                                                    <div class="text-group">
+                                                        <div class="text">
+                                                            <p>@item.MessageDetails</p>
+                                                        </div>
+                                                    </div>
+                                                    <span>@item.MessageDate</span>
+                                                </div>
+                                            </div>
+                                        }
+                                    }
+                                }
+                            </div>
+                        </div>
+                    </div>
+
+                    @await Component.InvokeAsync("ReplyMessage", ViewBag.ReceiverID)
+                </div>
+            }
+            <!-- End of Chat -->

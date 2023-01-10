@@ -1,0 +1,19 @@
+﻿@model Message
+
+<div class="container">
+    <div class="col-md-12">
+        <div class="bottom">
+            <form class="position-relative w-100" method="post" asp-controller="Message" asp-action="ReplyMessage">
+                <input id="docActionId" asp-for="ReceiverID" type="hidden" value="@ViewBag.id" />
+
+                <textarea class="form-control" placeholder="Start typing for reply..." rows="1" asp-for="MessageDetails"></textarea>
+                <button class="btn emoticons"><i class="material-icons">insert_emoticon</i></button>
+                <button type="submit" class="btn send"><i class="material-icons">send</i></button>
+            </form>
+            <label>
+                <input type="file">
+                <span class="btn attach d-sm-block d-none"><i class="material-icons">attach_file</i></span>
+            </label>
+        </div>
+    </div>
+</div>
