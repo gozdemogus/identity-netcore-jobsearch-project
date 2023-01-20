@@ -1,7 +1,7 @@
 
 <a name="readme-top"></a>
 # Job Finder Project :bookmark_tabs:	
-This project is a job search - social networking web project developed using .NET Core MVC, N-tier architecture, identity framework, entity framework, repository design pattern, code first, HTML, CSS, JQuery, Ajax. In the project, users can search job applications, apply for the applications, withdraw their applications, follow members on the site, message members, create a CV for themselves and print this CV as a PDF, also download other user's CVs.
+This project is a job search - social networking web project developed using .NET Core MVC, N-tier architecture, Identity Framework, Entity Framework, Fluent API repository design pattern, code first, HTML, CSS, JQuery, Ajax. In the project, users can search job applications, apply for the applications, withdraw their applications, follow members on the site, message members, create a CV for themselves and print this CV as a PDF, also download other user's CVs.
 
 <img width="1310" alt="image" src="https://user-images.githubusercontent.com/107196935/210955469-b876e075-5029-493f-aa23-9649c78f68b6.png">
 
@@ -26,6 +26,7 @@ This project is a job search - social networking web project developed using .NE
 - .NET Core
 - Code First
 - Entity Framework
+- Fluent API
 - Identity
 - N Tier Architecture
 - Repository Design Pattern
